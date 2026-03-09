@@ -19,8 +19,14 @@ const Hero = () => {
           <p className="font-heading text-brand-red-light text-sm md:text-base uppercase tracking-[0.3em] font-bold mb-4">
             Reliable · Efficient · Professional
           </p>
-          <h1 className="font-heading text-primary-foreground text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-900 leading-tight mb-6">
-            JMiP Customs
+          <h1 className="font-heading text-primary-foreground text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black leading-tight mb-6">
+            <span className="inline-block italic">
+              <span className="text-primary-foreground">J</span>
+              <span className="text-primary-foreground">M</span>
+              <span className="text-brand-red">i</span>
+              <span className="text-primary-foreground">P</span>
+            </span>{" "}
+            Customs
             <br />
             <span className="text-brand-red-light">Brokerage</span>
           </h1>
