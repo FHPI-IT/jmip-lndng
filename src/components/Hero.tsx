@@ -20,11 +20,11 @@ const Hero = () => {
             Reliable · Efficient · Professional
           </p>
           <h1 className="font-heading text-primary-foreground text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black leading-tight mb-6">
-            <span className="inline-block italic">
-              <span className="text-primary-foreground">J</span>
-              <span className="text-primary-foreground">M</span>
-              <span className="text-brand-red">i</span>
-              <span className="text-primary-foreground">P</span>
+            <span className="inline-block italic" style={{ WebkitTextStroke: '1px rgba(255,255,255,0.35)' }}>
+              <span style={{ color: '#022d62' }}>J</span>
+              <span style={{ color: '#022d62' }}>M</span>
+              <span className="text-brand-red" style={{ WebkitTextStroke: 'none' }}>i</span>
+              <span style={{ color: '#022d62' }}>P</span>
             </span>{" "}
             Customs
             <br />
