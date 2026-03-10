@@ -27,7 +27,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto flex items-center justify-between px-4">
         <a href="#home" className="flex items-center gap-3">
-          <img src={logo} alt="JMiP Customs Brokerage" className="h-12 w-auto" />
+          <img src={logo} alt="JMiP Customs Brokerage" className="h-16 w-auto" />
         </a>
 
         {/* Desktop */}
